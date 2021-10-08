@@ -3,9 +3,13 @@
     <head>
 <title>Таблицы</title>
 <link rel="stylesheet" href="styles/style.css">
+<style>
+    .column1{width: 120px;}
+    .column2{width: 100px;}
+</style>
     </head>
     <body>
-        <div>
+        <div class="stylesheet">
             <table border="1px">
                 <tr>
                     <td>Ячейка 1</td><td>Ячейка 2</td><td>Ячейка 3</td>
@@ -23,11 +27,11 @@
             </table>
         </div>
         <div class="stylesheet">
-            <table border="1px" cellpadding="20" cellspacing="0" width="20%">
-                <tr align="center">
-                    <td><b>Ячейка 1</b></td>
-                    <td><b>Ячейка 2</b></td>
-                    <td><b>Ячейка 3</b></td>
+            <table border="1px" width="400" height="200" cellspacing="0">
+                <tr>
+                    <th>Ячейка 1</th>
+                    <th>Ячейка 2</th>
+                    <th>Ячейка 3</th>
                 </tr>
                 <tr align="left">
                     <td>Ячейка 4</td>
@@ -38,6 +42,74 @@
                     <td>Ячейка 7</td>
                     <td>Ячейка 8</td>
                     <td>Ячейка 9</td>
+                </tr>
+            </table>
+        </div>
+        <div class="stylesheet">
+            <table border="1px" width="400" height="200" cellspacing="0">
+                <tr>
+                    <th>Ячейка 1</th>
+                    <th>Ячейка 2</th>
+                    <th>Ячейка 3</th>
+                </tr>
+                <tr align="right">
+                    <td>Ячейка 4</td>
+                    <td>Ячейка 5</td>
+                    <td>Ячейка 6</td>
+                </tr>
+                <tr>
+                    <td align="left">Ячейка 7</td>
+                    <td align="center">Ячейка 8</td>
+                    <td align="right">Ячейка 9</td>
+                </tr>
+            </table>
+        </div>
+        <div class="stylesheet">
+            <table border="1px" width="500" height="250" cellspacing="0">
+                <tr>
+                    <th class="column1">номер</th>
+                    <th class="column2">тег</th>
+                    <th>значение</th>
+                </tr>
+                <tr align="center">
+                    <td class="column1">1</td>
+                    <td class="column2">p</td>
+                    <td>абзац</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">2</td>
+                    <td class="column2">a</td>
+                    <td>ссылка</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">3</td>
+                    <td class="column2">b</td>
+                    <td>жирный текст</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">4</td>
+                    <td class="column2">i</td>
+                    <td>курсив</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">5</td>
+                    <td class="column2">table</td>
+                    <td>таблица</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">6</td>
+                    <td class="column2">tr</td>
+                    <td>ряд таблицы</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">7</td>
+                    <td class="column2">td</td>
+                    <td>ячейка таблицы</td>
+                </tr>
+                <tr align="center">
+                    <td class="column1">8</td>
+                    <td class="column2">th</td>
+                    <td>заголовок таблицы</td>
                 </tr>
             </table>
         </div>
