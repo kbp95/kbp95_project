@@ -1,5 +1,12 @@
 .mainDiv{
+    width: 375px;
+}
+.mainDiv2{
     width: 500px;
+}
+p{
+    line-height: 30px;
+    text-indent: 30px;
 }
 h2{
     color: blue;
@@ -17,4 +24,17 @@ ol{
 }
 h1{
     color: green;
+}
+em{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 57, 255);
+    font-size: normal;
+}
+strong{
+    color: red;
+    font-size: x-large;
+}
+ul{
+    font-style: italic;
+    color: rgb(161, 101, 101);
 }
