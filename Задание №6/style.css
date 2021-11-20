@@ -1,0 +1,15 @@
+p{
+    color: blueviolet;
+}
+h2{
+    color: aqua;
+}
+#test h2{
+	color: blue;
+}
+#test p{
+	color: red;
+}
+.bbb{
+    color: chocolate;
+}
