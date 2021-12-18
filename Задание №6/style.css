@@ -10,6 +10,21 @@ h2{
 #test p{
 	color: red;
 }
-.bbb{
+#test.bbb{
+    color: brown;
+}
+p.bbb{
+    color: chartreuse;
+}
+h2.bbb{
+    color: crimson;
+}
+.bbb *{ 
     color: chocolate;
+}
+.bbb.xxx{
+    color: darkgreen;
+}
+p.bbb h2.xxx{
+    color: darkmagenta;
 }
