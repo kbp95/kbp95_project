@@ -1,30 +1,67 @@
-p{
+/* p {
+    color: red;
+}
+
+h2 {
+    color: blue;
+} */
+
+#test p {
     color: blueviolet;
-}
-h2{
-    color: aqua;
-}
-#test h2{
-	color: blue;
-}
-#test p{
-	color: red;
-}
-#test.bbb{
+}   
+
+#test h2 {
     color: brown;
 }
-p.bbb{
-    color: chartreuse;
+
+.bbb {
+    color: rgba(49, 39, 42, 0.521);
 }
-h2.bbb{
+
+#test .bbb {
     color: crimson;
 }
-.bbb *{ 
-    color: chocolate;
+
+p.bbb {
+    color: darkcyan;
 }
-.bbb.xxx{
-    color: darkgreen;
+
+h2.bbb {
+
 }
-p.bbb h2.xxx{
-    color: darkmagenta;
+
+#test p.bbb {
+
+}
+
+.bbb, .xxx {
+
+}
+
+p.bbb, h2.xxx {
+
+}
+
+#test p.bbb, #test p.xxx {
+
+}
+
+.fff * {
+
+}
+
+.fff p {
+
+}
+
+p.fff {
+
+}
+
+.fff .bbb {
+
+}
+
+.fff h2.bbb {
+
 }
