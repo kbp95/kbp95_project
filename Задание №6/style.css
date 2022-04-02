@@ -1,67 +1,30 @@
-/* p {
-    color: red;
-}
-
-h2 {
-    color: blue;
-} */
-
-#test p {
+p{
     color: blueviolet;
-}   
-
-#test h2 {
+}
+h2{
+    color: aqua;
+}
+#test h2{
+	color: blue;
+}
+#test p{
+	color: red;
+}
+#test.bbb{
     color: brown;
 }
-
-.bbb {
-    color: rgba(49, 39, 42, 0.521);
+p.bbb{
+    color: chartreuse;
 }
-
-#test .bbb {
+h2.bbb{
     color: crimson;
 }
-
-p.bbb {
-    color: darkcyan;
+.bbb *{ 
+    color: chocolate;
 }
-
-h2.bbb {
-
+.bbb.xxx{
+    color: darkgreen;
 }
-
-#test p.bbb {
-
-}
-
-.bbb, .xxx {
-
-}
-
-p.bbb, h2.xxx {
-
-}
-
-#test p.bbb, #test p.xxx {
-
-}
-
-.fff * {
-
-}
-
-.fff p {
-
-}
-
-p.fff {
-
-}
-
-.fff .bbb {
-
-}
-
-.fff h2.bbb {
-
+p.bbb h2.xxx{
+    color: darkmagenta;
 }
